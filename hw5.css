@@ -1,0 +1,35 @@
+/*Pseudo Classes*/
+input[type=submit]:hover{
+    background-color: yellow;
+    color: black;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}
+form {
+    text-align: center;
+}
+
+/*Pseudo Elements*/
+#demo1::before{
+    content: "This content was place before the tag using ::before pseudo element. ";
+    color:black;
+    background-color: red;
+}
+
+#demo2::after{
+    content: " This content was place after the tag using ::after pseudo element. ";
+    color:black;
+    background-color: red;
+}
+
+p::first-line {
+    background-color: violet;
+}
+p::first-letter {
+    font-size:30px;
+    font-family:cursive;
+    color: black;
+}

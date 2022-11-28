@@ -1,0 +1,25 @@
+#parent>div {
+    height:100px
+    
+}
+#parent {
+    background-color: aqua;
+    padding:20px;
+    position: relative;
+}
+#child-one {
+    background-color: green;
+    position:absolute;
+    left:30px;
+    z-index:2;
+}
+#child-two{
+    background-color: brown;
+    position:relative;
+    z-index:1;
+}
+#child-three {
+    background-color: pink;
+    position:relative;
+    left :50px;
+}
